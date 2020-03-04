@@ -40,3 +40,9 @@ if (my.age < 18){
 for(i in 1:10){
   print(i)
 }
+
+student<- c("A","B","C","D")
+
+for(i in 1:4){
+  print(student[i])
+}
