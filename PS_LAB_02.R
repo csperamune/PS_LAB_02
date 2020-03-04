@@ -49,7 +49,13 @@ for(i in 1:4){
 
 #while loop
 i<-1
-while(i<11){
+while(i<10){
   print(i)
   i<-i+1
+}
+
+y=2.987
+while (y<=4.97) {
+  y= y+0.987
+  print(c(y,y-2,y-1))
 }
