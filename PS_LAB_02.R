@@ -46,3 +46,10 @@ student<- c("A","B","C","D")
 for(i in 1:4){
   print(student[i])
 }
+
+#while loop
+i<-1
+while(i<11){
+  print(i)
+  i<-i+1
+}
